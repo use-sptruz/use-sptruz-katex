@@ -1,6 +1,6 @@
 {
   "name": "@use-sptruz/katex",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React hook for using Katex, a fast math typesetting library for the web.",
   "keywords": [
     "react",
@@ -48,15 +48,17 @@
     "katex": "0.16.4"
   },
   "devDependencies": {
-    "@rollup/plugin-terser": "0.4.0",
-    "@rollup/plugin-typescript": "11.0.0",
+    "@rollup/plugin-terser": "0.4.1",
+    "@rollup/plugin-typescript": "11.1.0",
+    "@types/eslint": "8.37.0",
     "@types/katex": "0.16.0",
     "@types/node": "18.15.11",
-    "@types/react": "18.0.32",
+    "@types/prettier": "2.7.2",
+    "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
-    "@typescript-eslint/eslint-plugin": "5.57.0",
-    "@typescript-eslint/parser": "5.57.0",
-    "eslint": "8.37.0",
+    "@typescript-eslint/eslint-plugin": "5.58.0",
+    "@typescript-eslint/parser": "5.58.0",
+    "eslint": "8.38.0",
     "eslint-config-prettier": "8.8.0",
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-simple-import-sort": "10.0.0",
@@ -68,7 +70,7 @@
     "rollup-plugin-dts": "5.3.0",
     "tslib": "2.5.0",
     "tsx": "3.12.6",
-    "typescript": "5.0.3"
+    "typescript": "5.0.4"
   },
   "sideEffects": false,
   "exports": {
